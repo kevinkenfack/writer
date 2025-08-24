@@ -9,5 +9,7 @@ export default {
       include: '**/*.txt',
     }),
   ],
-  'optimizeDeps.include': ['valtio/vanilla'],
+  optimizeDeps: {
+    include: ['valtio/vanilla'],
+  },
 }
