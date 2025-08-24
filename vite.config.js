@@ -1,8 +1,7 @@
 import { string } from 'rollup-plugin-string'
 
-/**
- * @type {import('vite').UserConfig}
- */
+@type {import('vite').UserConfig}
+
 export default {
   plugins: [
     string({
