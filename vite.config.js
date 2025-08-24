@@ -1,8 +1,7 @@
 import { string } from 'rollup-plugin-string'
+import { defineConfig } from 'vite'
 
-@type {import('vite').UserConfig}
-
-export default {
+export default defineConfig({
   plugins: [
     string({
       include: '**/*.txt',
@@ -11,4 +10,4 @@ export default {
   optimizeDeps: {
     include: ['valtio/vanilla'],
   },
-}
+})
